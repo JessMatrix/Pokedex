@@ -54,6 +54,8 @@
   }
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+*{scrollbar-width:none;}
+*::-webkit-scrollbar{display:none;}
 html{font-size:15px;}
 body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;-webkit-font-smoothing:antialiased;}
 
@@ -98,6 +100,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 }
 .shiny-btn:hover{border-color:var(--gold);color:var(--gold);}
 .shiny-btn.on{background:var(--gold-soft);border-color:var(--gold);color:var(--gold);}
+
 
 /* ── FILTER BAR ─────────────────────────────── */
 .filterbar{
@@ -357,7 +360,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 </style>
 </head>
 <body>
-
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#fbb2ff', 'A0A51YSJ1J');kofiwidget2.draw();</script>
 <!-- TOPBAR -->
 <header class="topbar">
   <div class="logo"><b>pokédex</b> tracker</div>
